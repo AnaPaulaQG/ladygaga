@@ -6,12 +6,18 @@
     <title>Document</title>
     <link href="styles.css" rel="stylesheet">
 </head>
-<body>
-    <form action="index.html" method="post">
-        <label class="formulario">Nombre: <input type="text" name="username"> </label>
-        <label class="formulario">Edad: <input type="number" name="edad">
-        <label class="formulario">Contraseña: <input type="password" name="contraseña">
-        <label class="formulario"><input type= "submit"></label>
+<body class="fondo">
+    <form action="index.html" method="GET">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+      
+        <label for="number">Edad:</label>
+        <input type="number" id="number" name="number">
+      
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password">
+      
+        <button type="submit">Enviar</button>
       </form>
 </body>
 </html>
