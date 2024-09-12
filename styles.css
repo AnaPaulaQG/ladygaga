@@ -50,10 +50,17 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
+    position: relative;
+    left: 540px;
+    top: 80px;
 }
 
 #login1{
     background-color: violet;
     border-radius: 30px;
     text-align: center;
+    max-width: 160px;
+    position: relative;
+    left: 610px;
+    top: 80px;
 }
